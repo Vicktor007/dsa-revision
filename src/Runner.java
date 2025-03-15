@@ -1,7 +1,4 @@
-import easyQuestions.BestTimeToBuyAndSellStock;
-import easyQuestions.MinimumTimeVisitingAllPoints;
-import easyQuestions.MissingNumber;
-import easyQuestions.SquaresOfaSortedArray;
+import easyQuestions.*;
 
 import java.util.List;
 
@@ -60,7 +57,13 @@ public class Runner {
         System.out.println();
         squaresOfaSortedArray.squaresOfaSortedArray2(sortedArray);
 
+        System.out.println();
 
+        int[] array1 = {1,2,2,3,4,3,5,5,1};
+        BitManipulation bitManipulation = new BitManipulation();
+
+       int result1 =   bitManipulation.bitManipulation(array1);
+        System.out.println(result1);
 
     }
 }
